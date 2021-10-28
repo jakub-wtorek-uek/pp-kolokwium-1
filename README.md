@@ -1,5 +1,9 @@
 # Zadania z probnego pierwszego kolokwium.
 
+### Wszystkie zadania na jednej stronie: <br>
+### https://jakub-wtorek-uek.github.io/pp-kolokwium-1/
+
+
 (F1.py) Zdefiniuj funkcję stars(n), która zwraca n znaków gwiazdek w postaci łańcucha znakowego. 
 Przykład: stars(5) => "*****" 
 
