@@ -1,2 +1,2 @@
-def in(n, from, to):
-    return from <= n <= to
+def ina(n, froma, to):
+    return froma <= n <= to
