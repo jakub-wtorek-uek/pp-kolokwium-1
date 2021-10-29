@@ -14,8 +14,8 @@ Przykład: stars(5) => "*****"
 przedziału <from,to>.<br>
 Przykład: in(3,2,5) => True
 
-    def in(n, from, to):
-        return from <= n <= to
+    def ina(n, froma, to):
+        return froma <= n <= to
 
 <br>
 
@@ -78,11 +78,11 @@ Przykład: rand(10,50) => 36
     from random import randint
 
 
-    def rand(from, to):
-        rando = randint(from, to)
+    def rand(froma, to):
+        rando = randint(froma, to)
 
         while rando % 2 != 0 and rando % 3 != 0:
-            rando = randint(from, to)
+            rando = randint(froma, to)
 
     return rando
 
